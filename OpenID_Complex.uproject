@@ -1,22 +1,27 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "OpenID_Complex",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OpenID_Client",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d5925e5c21b54572a2e768afdc515833"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d5925e5c21b54572a2e768afdc515833",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		},
 		{
 			"Name": "WebBrowserWidget",
 			"Enabled": true
-		},
-		{
-			"Name": "BlueprintJson",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f837e4835fbc434a853fe1ead2410b84"
 		},
 		{
 			"Name": "VaRest",

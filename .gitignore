@@ -72,4 +72,7 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # My Plugin
-Plugins/OpenID_Client
+Plugins
+
+#Rider
+.idea
